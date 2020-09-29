@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.esteel.rest.autoconfigure.SwaggerAutoConfiguration,\
+com.esteel.rest.autoconfigure.WebMvcConfig,\
+  com.esteel.rest.autoconfigure.security.WebSecurityConfig,\
+com.esteel.rest.autoconfigure.security.AuthorizationServerConfig,\
+com.esteel.rest.autoconfigure.security.ResourceServerAutoConfiguration
