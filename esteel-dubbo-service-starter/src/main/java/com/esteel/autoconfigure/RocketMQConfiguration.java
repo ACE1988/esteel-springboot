@@ -132,7 +132,7 @@ public class RocketMQConfiguration implements InitializingBean {
   }
 
 
-  @Around("@annotation(com.sinarmas.annotation.rocketmq.Produce)")
+  @Around("@annotation(com.esteel.annotation.rocketmq.Produce)")
   public Object produceProxy(ProceedingJoinPoint pjp)
       throws Throwable {
 
