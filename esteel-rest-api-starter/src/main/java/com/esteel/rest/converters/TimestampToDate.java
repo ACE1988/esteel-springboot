@@ -1,7 +1,7 @@
 package com.esteel.rest.converters;
 
 
-import com.esteel.common.util.NumberUtil;
+import com.esteel.common.utils.NumberUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.core.convert.converter.Converter;
 

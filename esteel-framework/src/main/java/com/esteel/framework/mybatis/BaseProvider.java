@@ -1,6 +1,6 @@
 package com.esteel.framework.mybatis;
 
-import com.esteel.common.util.DateUtils;
+import com.esteel.common.utils.DateUtils;
 import com.esteel.framework.constant.SysConstants;
 import com.esteel.framework.entity.BaseEntity;
 import com.esteel.framework.mybatis.complexQuery.CustomQueryParam;

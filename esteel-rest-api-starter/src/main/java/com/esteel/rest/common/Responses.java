@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 import static com.esteel.common.core.ErrorCode.SystemError.SERVER_INTERNAL_ERROR;
 import static com.esteel.common.interaction.ConstraintUtil.isConstraintViolationException;
 import static com.esteel.common.interaction.Throwables.getCause;
-import static com.esteel.common.util.Structures.map;
+import static com.esteel.common.utils.Structures.map;
 
 @Slf4j
 public class Responses {

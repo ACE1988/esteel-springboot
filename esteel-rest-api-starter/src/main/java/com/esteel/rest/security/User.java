@@ -6,7 +6,7 @@ import org.springframework.security.core.GrantedAuthority;
 
 import java.util.Collection;
 
-import static com.esteel.common.util.NumberUtil.isNumerical;
+import static com.esteel.common.utils.NumberUtil.isNumerical;
 
 @Data
 public class User extends org.springframework.security.core.userdetails.User {

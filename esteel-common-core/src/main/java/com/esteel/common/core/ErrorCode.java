@@ -65,4 +65,10 @@ public class ErrorCode {
         ErrorCode DENIED_BY_RULE = new ErrorCode("600008", "请求被拒");
         ErrorCode UNSUPPORTED_CHARACTERS = new ErrorCode("600009", "检测到非法字符: %s, 请删除");
     }
+
+    public interface RoleError {
+        ErrorCode ROLE_EXIST_ERROR = new ErrorCode("700001", "角色已存在，请确认角色名");
+        ErrorCode ROLE_ADD_ERROR = new ErrorCode("700002", "添加角色失败");
+        ErrorCode ROLE_NOT_EXIST_ERROR = new ErrorCode("700003", "根据角色ID为查询到对应角色，请确认参数是否正确");
+    }
 }

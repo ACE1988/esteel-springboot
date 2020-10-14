@@ -1,7 +1,7 @@
 package com.esteel.common.filter;
 
 import com.esteel.common.core.ProcessBizException;
-import com.esteel.common.util.JsonUtil;
+import com.esteel.common.utils.JsonUtil;
 import com.esteel.common.dubbo.BaseRequest;
 import com.esteel.common.dubbo.DubboResponse;
 import lombok.extern.slf4j.Slf4j;
